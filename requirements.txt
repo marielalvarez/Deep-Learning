@@ -1,8 +1,8 @@
 tensorflow==2.13.0        # incluye Keras 2.13, no agregues keras por separado
-streamlit==1.26.4
-numpy==1.26.4            # versión compatible con TF 2.13
-pandas==2.2.3
-matplotlib==3.9.2
-pillow==10.4.0                    # ← para PIL
+streamlit
+numpy           # versión compatible con TF 2.13
+pandas
+matplotlib
+pillow                   # ← para PIL
 scikit-learn==1.5.1  # misma que usaste al crear el pickle
 gdown
