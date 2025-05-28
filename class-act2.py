@@ -26,7 +26,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+import gdown
 
+url = 'https://drive.google.com/uc?id=1QrNQorkv7_PVGsjZyDjC8KQS7QVFaNky' 
+output = 'image_model.keras'
+gdown.download(url, output, quiet=False)
 
 @st.cache_resource
 def load_pickle(path):
@@ -41,7 +45,7 @@ pre = load_pickle("preprocessor.pkl")
 y_scaler = load_pickle("y_scaler.pkl")
 
 text_model       = load_keras_model("text_model.keras")
-image_model      = load_keras_model("image_model.keras") 
+image_model      = load_keras_model(output) 
 regression_model = load_keras_model("regression_model.keras")
 
 def preprocess_image(img_pil, size=(224, 224)):
