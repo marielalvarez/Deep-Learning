@@ -1,8 +1,7 @@
 tensorflow==2.13.0
+keras==2.13.1
+streamlit
 numpy
 pandas
-Pillow
-streamlit
-absl-py
 matplotlib
-gdown
+scikit-learn
