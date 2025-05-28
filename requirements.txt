@@ -1,6 +1,6 @@
 tensorflow==2.13.0        # incluye Keras 2.13, no agregues keras por separado
 streamlit
-numpy           # versión compatible con TF 2.13
+numpy==1.23.5           # versión compatible con TF 2.13
 pandas
 matplotlib
 pillow                   # ← para PIL
