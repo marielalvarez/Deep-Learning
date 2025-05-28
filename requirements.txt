@@ -4,5 +4,5 @@ numpy==1.23.5             # versión compatible con TF 2.13
 pandas==1.5.3
 matplotlib
 pillow                    # ← para PIL
-scikit-learn==1.3.2       # misma que usaste al crear el pickle
+scikit-learn==1.1.3       # misma que usaste al crear el pickle
 gdown
